@@ -2,6 +2,9 @@
 Simple flappy bird game I made a while ago
 
 # how to compile
-```javac Flappy/src/Main.java```
+Download the zipped file and move Flappy to your home directory. Make sure `java` and `javac` are in your PATH environmental variable.
 
-```java -cp Flappy/src/Main```
+```sh
+javac Flappy/src/*.java
+java Flappy/src/Main
+```
